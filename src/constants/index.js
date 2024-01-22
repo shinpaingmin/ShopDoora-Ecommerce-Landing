@@ -5,6 +5,37 @@ export const heroSection = [
     },
     { 
         heorImg: "https://www.alips.co/wp-content/uploads/2022/05/Alips-1600-Puffs-A18-16K-Watermelon-Ice.jpg?fbclid=IwAR1j9OEfSc1WhT24Sg5co_Vu6ZxlWQvjLn45U0gC83mmJA0q4sjnttHehwA",
-        label: "heroImg1"
+        label: "heroImg2"
     },
 ];
+
+export const bestDeals = [
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+    {
+        imgSrc: "https://www.vaporesso.com/hubfs/imgs/product_img/revenger_x/360/T10-X.46.png",
+        label: "vape1"
+    },
+];  

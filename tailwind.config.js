@@ -9,6 +9,9 @@ export default {
       minHeight: (theme) => ({
         ...theme('spacing'),
       }),
+      gridTemplateColumns: {
+        'auto-fit-100': 'repeat(auto-fit, minmax(100px, 1fr))'
+      }
     },
   },
   plugins: [],
