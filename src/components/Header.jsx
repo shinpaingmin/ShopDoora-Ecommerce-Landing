@@ -20,12 +20,12 @@ const Header = () => {
                 flex items-center justify-between">
                 <a href="#" className="text-white text-xl font-bold font-serif">PI人</a>
                 <div className="flex items-center relative">
-                    <a className="mr-8">
+                    <a className="mr-8 cursor-pointer">
                         <IoSearch color="#fff"
                             size={22}/>
                     </a>
 
-                    <a className="mr-[3.5rem]">
+                    <a className="mr-[3.5rem] cursor-pointer">
                         <PiShoppingCart color="#fff"
                             size={22}/>
                     </a>

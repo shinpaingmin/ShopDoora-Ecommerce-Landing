@@ -22,24 +22,24 @@ const Footer = () => {
                 <li className="text-xl font-semibold">Customer Service</li>
                 <li className="flex items-center mt-5">
                     <RiShieldKeyholeLine size={18} /> 
-                    <span className="ml-1.5">Terms & Privacy Policy</span>
+                    <a href="#" className="ml-1.5">Terms & Privacy Policy</a>
                 </li>
                 <li className="flex items-center mt-5">
                     <FaArrowRotateLeft size={18} /> 
-                    <span className="ml-1.5">Return Policy</span>
+                    <a href="#" className="ml-1.5">Return Policy</a>
                 </li>
                 <li className="mt-5 md:mt-14 text-xl font-semibold">
                     Payment
                 </li>
                 <li className="mt-5 flex mb-5">
-                    <div className="w-24 h-12 mr-3">
+                    <div className="w-24 h-12 mr-3 cursor-pointer">
                         <img src="https://play-lh.googleusercontent.com/cnKJYzzHFAE5ZRepCsGVhv7ZnoDfK8Wu5z6lMefeT-45fTNfUblK_gF3JyW5VZsjFc4"
-                        alt=""
+                        alt="kbz"
                         className="w-full h-full object-cover rounded-md" />
                     </div>
-                    <div className="w-24 h-12 mr-3">
+                    <div className="w-24 h-12 mr-3 cursor-pointer">
                         <img src="https://play-lh.googleusercontent.com/XjUGY5EfxEyhUPq1JuadBs4guF0ykiFipRvr052ku3Gc9yfXn2UhP3-Tak7jdtTN24Tj" 
-                        alt=""
+                        alt="wavePay"
                         className="w-full h-full object-cover rounded-md" />
                     </div>
                 </li>
@@ -78,13 +78,13 @@ const Footer = () => {
                         Follow Us On
                     </li>
                     <li className="mt-4 flex items-center">
-                        <FaFacebook size={44} color="#316FF6" className="mr-3" />
+                        <FaFacebook size={44} color="#316FF6" className="mr-3 cursor-pointer" />
                         <FaInstagram size={44} color="white"
-                        className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-md mr-3" />
+                        className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-md mr-3 cursor-pointer" />
                         <FaViber size={44} color="white"
-                            className="bg-[#7360f2] rounded-md mr-3" />
-                        <FaTelegram size={44} color="#0088cc" className="mr-3" />
-                        <FaTwitter size={44} color="#1DA1F2" className="mr-3" />
+                            className="bg-[#7360f2] rounded-md mr-3 cursor-pointer" />
+                        <FaTelegram size={44} color="#0088cc" className="mr-3 cursor-pointer" />
+                        <FaTwitter size={44} color="#1DA1F2" className="mr-3 cursor-pointer" />
                     </li>
                 </ul>
 
