@@ -1,18 +1,23 @@
-import BestDeals from "./components/BestDeals"
-import Footer from "./components/Footer"
-import Hero from "./components/Hero"
-import NewReleased from "./components/NewReleased"
-
+import { lazy, Suspense } from "react"
+import Spinner from "./components/Spinner";
 
 function App() {
 
+  const Header = lazy(() => import("./components/Header"));
+  const Hero = lazy(() => import("./components/Hero"));
+  const BestDeals = lazy(() => import("./components/BestDeals"));
+  const NewReleased = lazy(() => import("./components/NewReleased"));
+  const Footer = lazy(() => import("./components/Footer"));
 
   return (
     <>
-      <Hero />
-      <BestDeals />
-      <NewReleased />
-      <Footer />
+      <Suspense fallback={<Spinner />}>
+        <Header />
+        <Hero />
+        <BestDeals />
+        <NewReleased />
+        <Footer />
+      </Suspense>
     </>
   )
 }
