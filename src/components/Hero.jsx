@@ -8,7 +8,7 @@ import SwiperNavButtons from './SwiperNavButtons';
 
 const Hero = () => {
   return (
-    <section className='w-full h-screen md:h-[90vh] flex relative' id='hero'>
+    <section className='w-full h-screen md:h-[90vh] flex relative' id='home'>
         <Swiper
             style={{
                 "--swiper-pagination-color": "#000", //https://stackoverflow.com/questions/65590148/swiperjs-how-do-you-style-the-pagination-bullets
@@ -31,7 +31,7 @@ const Hero = () => {
                     <div className='w-full h-full relative' >
                         <div className='w-full h-full overflow-hidden'>
                             <img src={item.heorImg} alt={item.label}
-                                className='w-full h-full object-cover object-top' />
+                                className='w-full h-full object-cover object-top bg-gray-200' />
                         </div>
                         <div className='absolute top-[50%] md:top-[60%] left-[50%] translate-x-[-50%]
                              grid place-items-center w-full'>

@@ -4,10 +4,10 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Features = () => {
   return (
     <div className="grid grid-col-1 md:grid-cols-auto-fit-100 gap-1">
-        <div className="row-span-2 col-span-2">
-            <div className="h-96 relative overflow-hidden">
+        <div className="row-span-2 col-span-2 ">
+            <div className="h-96 relative overflow-hidden barrier cursor-pointer">
                 <img src="https://i0.wp.com/www.qssv.net/wp-content/uploads/2018/10/Revenger-X.png?fit=1598%2C837&ssl=1" alt="membership"
-                className="rounded-md object-cover h-full" />
+                className="rounded-md object-cover h-full hoverEffect bg-gray-200" />
 
                 <div className="absolute top-[40%] md:top-1/2 left-10">
                     <h1 className="text-4xl font-bold text-white mb-6">Membership Program</h1>
@@ -19,9 +19,9 @@ const Features = () => {
             </div>
         </div>
         <div className="row-span-2">
-            <div className="h-96 relative overflow-hidden">
+            <div className="h-96 relative overflow-hidden cursor-pointer barrier">
                 <img src="https://www.houseofvape.co.za/wp-content/uploads/Revenger.png" alt="devices"
-                className="rounded-md h-full object-cover" />
+                className="rounded-md h-full object-cover hoverEffect bg-gray-200" />
 
                 <div className="absolute w-full top-[70%] left-0 px-4 pt-5 bg-black/60 backdrop-blur rounded-b-md">
                     <div className="relative">
@@ -39,10 +39,10 @@ const Features = () => {
         
         <div className="grid grid-cols-1 grid-rows-2 gap-1 h-96">
             <div className="h-full w-full">
-                <div className="relative overflow-hidden w-full h-full">
+                <div className="relative overflow-hidden w-full h-full cursor-pointer barrier">
                     <img src="https://images.unsplash.com/photo-1594177914682-d408d96e458b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8&w=1000&q=80" 
                         alt="pods"
-                        className="rounded-md w-full h-full object-cover" />
+                        className="rounded-md w-full h-full object-cover hoverEffect bg-gray-200" />
 
                     <div className="absolute w-full top-[45%] left-0 px-4 pt-5 pb-3 bg-black/60 backdrop-blur rounded-b-md">
                         <div className="relative">
@@ -58,10 +58,10 @@ const Features = () => {
                 </div>
             </div>
             <div className="h-full w-full">
-                <div className="relative overflow-hidden w-full h-full">
+                <div className="relative overflow-hidden w-full h-full cursor-pointer barrier">
                     <img src="https://images.unsplash.com/photo-1594177914682-d408d96e458b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8&w=1000&q=80" 
                         alt="disposable"
-                        className="rounded-md w-full h-full object-cover" />
+                        className="rounded-md w-full h-full object-cover hoverEffect bg-gray-200" />
 
                     <div className="absolute w-full top-[45%] left-0 px-4 pt-5 pb-3 bg-black/60 backdrop-blur rounded-b-md">
                         <div className="relative">

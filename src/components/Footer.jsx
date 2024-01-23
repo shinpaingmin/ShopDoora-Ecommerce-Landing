@@ -17,7 +17,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="grid grid-cols-1 md:grid-cols-4 max-md:gap-6 max-w-[1280px] mx-auto p-2 " >
+            <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-md:gap-6 max-w-[1280px] mx-auto p-2 " >
                 <ul>
                 <li className="text-xl font-semibold">Customer Service</li>
                 <li className="flex items-center mt-5">
@@ -31,7 +31,7 @@ const Footer = () => {
                 <li className="mt-5 md:mt-14 text-xl font-semibold">
                     Payment
                 </li>
-                <li className="mt-5 flex">
+                <li className="mt-5 flex mb-5">
                     <div className="w-24 h-12 mr-3">
                         <img src="https://play-lh.googleusercontent.com/cnKJYzzHFAE5ZRepCsGVhv7ZnoDfK8Wu5z6lMefeT-45fTNfUblK_gF3JyW5VZsjFc4"
                         alt=""
