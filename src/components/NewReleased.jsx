@@ -46,7 +46,7 @@ const NewReleased = () => {
         <div className="mb-8">
             <Swiper
               slidesPerView={1}
-              speed={1200}
+              
             >
                 {
                   feature1.map((item) => (
@@ -56,7 +56,7 @@ const NewReleased = () => {
                             alt={item.label}
                             className="w-full h-full object-cover object-top rounded-lg" />
 
-                          <div className="absolute top-1/3 right-16 md:right-32 grid place-items-center">
+                          <div className="absolute top-1/3 right-1/4 md:right-32 grid place-items-center">
                             <h1 className="text-white font-bold text-4xl">Try New Flavor</h1>
                             <p className="text-white text-lg font-semibold mb-3 mt-1">Citrus Monster</p>
                             <Button customClass="px-6 py-2 bg-black/30 backdrop-blur text-white rounded-full hover:bg-black/70"
@@ -73,24 +73,26 @@ const NewReleased = () => {
         </div>
 
         <div className="mb-8">
-            <div className="w-full h-96 bg-[url('https://i.pinimg.com/originals/86/a2/a9/86a2a9d81833eeee203abfc37f3000c8.jpg')] rounded-lg
+            <div className="w-full  min-h-96 md:h-96 bg-[url('https://i.pinimg.com/originals/86/a2/a9/86a2a9d81833eeee203abfc37f3000c8.jpg')] rounded-lg
               bg-cover bg-top flex justify-end">
                 
-                <div className="w-[90%] md:w-[78%] h-full flex items-center">
-                    <div className="w-44 mr-16">
-                      <h1 className="text-white text-4xl font-semibold mb-2">Devices</h1>
-                      <p className="text-lg  text-white">Find the best for you here!</p>
+                <div className="w-full md:w-[78%] h-full flex items-center max-md:flex-col">
+                    <div className="w-44 md:mr-16 mb-3">
+                      <h1 className="text-white text-4xl font-semibold mb-2 max-md:text-center">Devices</h1>
+                      <p className="text-lg  text-white max-md:text-center">Find the best for you here!</p>
                     </div>
                    
-                    <div className="w-full h-full overflow-hidden py-12">
+                    <div className="w-full h-full overflow-hidden md:py-12">
                     
                     <Swiper
                       breakpoints={{
                         340: {
-                          slidesPerView: 1.1
+                          slidesPerView: 1,
+                          spaceBetween: 15,
                         },
                         760: {
-                          slidesPerView: 4.2
+                          slidesPerView: 4,
+                          spaceBetween: 12,
                         }
                       }}
                  
@@ -99,7 +101,7 @@ const NewReleased = () => {
                         bestDeals.map((item) => (
                             <SwiperSlide key={item.label}>
                                 <div 
-                                className="flex flex-col items-center">
+                                className="flex flex-col items-center ml-12">
                                   <div className="w-[11rem] h-[11rem] bg-[#eaeaea] overflow-hidden rounded-md
                                       relative">
                                       <img src={item.imgSrc}
