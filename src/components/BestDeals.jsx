@@ -10,11 +10,12 @@ const BestDeals = () => {
         id="bestDeals">
             <h1 className="text-4xl font-bold text-center">Best Deals</h1>
             <h3 className="text-xl text-center mt-2 mb-8 capitalize font-semibold text-gray-700">Just for you</h3>
-            <div className="grid grid-cols-7 gap-1 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-7 gap-10 mb-10">
             {
                 bestDeals.map((item) => (
-                    <div key={item.label}>
-                        <div className="w-[11rem] h-[11rem] bg-[#eaeaea] overflow-hidden rounded-md
+                    <div key={item.label}
+                        className="flex flex-col items-center">
+                        <div className="w-56 h-56 md:w-[11rem] md:h-[11rem] bg-[#eaeaea] overflow-hidden rounded-md
                             relative">
                             <img src={item.imgSrc}
                             alt={item.label}

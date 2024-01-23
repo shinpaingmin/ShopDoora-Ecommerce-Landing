@@ -9,39 +9,12 @@ const SwiperNavButtons = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
 
-    // const handlePrevButton = () => {
-    //     swiper.slidePrev();
-        
-    //     if(swiper.isBeginning) {
-    //         prevRef.current.classList.remove('grid');
-    //         prevRef.current.classList.add('hidden');
-    //     }
-
-    //     if(!swiper.isEnd) {
-    //         nextRef.current.classList.add('grid');
-    //         nextRef.current.classList.remove('hidden');
-    //     }
-    // }
-
-    // const handleNextButton = () => {
-    //     swiper.slideNext();
-
-    //     if(!swiper.isBeginning) {
-    //         prevRef.current.classList.add('grid');
-    //         prevRef.current.classList.remove('hidden');
-    //     }
-
-    //     if(swiper.isEnd) {
-    //         nextRef.current.classList.remove('grid');
-    //         nextRef.current.classList.add('hidden');
-    //     }
-    // }
-
+   
     return (
         <>
             <div className='bg-black/30 backdrop-blur w-12 h-48 absolute
                     top-1/2 left-0 translate-y-[-50%] z-10
-                    grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
+                    hidden md:grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
                 ref={prevRef}
                 onClick={() => swiper.slidePrev()}
             >
@@ -50,7 +23,7 @@ const SwiperNavButtons = () => {
             </div>
             <div className='bg-black/30 backdrop-blur w-12 h-48 absolute
                     top-1/2 right-0 translate-y-[-50%] z-10
-                    grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
+                    hidden md:grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
                 ref={nextRef}
                 onClick={() => swiper.slideNext()}
             >

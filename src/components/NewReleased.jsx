@@ -14,7 +14,7 @@ const NewReleased = () => {
         <h1 className="text-4xl font-bold text-center text-red-500">New <span className="text-black">Released</span></h1>
         <h3 className="text-lg text-center mt-2 mb-8 capitalize
          font-semibold text-gray-700">Try our latest flavors here</h3>
-        <div className="grid grid-cols-4 gap-1 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-1 mb-10">
         {
             newReleased.map((item) => (
               <div key={item.label} 
@@ -56,7 +56,7 @@ const NewReleased = () => {
                             alt={item.label}
                             className="w-full h-full object-cover object-top rounded-lg" />
 
-                          <div className="absolute top-1/3 right-32 grid place-items-center">
+                          <div className="absolute top-1/3 right-16 md:right-32 grid place-items-center">
                             <h1 className="text-white font-bold text-4xl">Try New Flavor</h1>
                             <p className="text-white text-lg font-semibold mb-3 mt-1">Citrus Monster</p>
                             <Button customClass="px-6 py-2 bg-black/30 backdrop-blur text-white rounded-full hover:bg-black/70"
@@ -76,16 +76,24 @@ const NewReleased = () => {
             <div className="w-full h-96 bg-[url('https://i.pinimg.com/originals/86/a2/a9/86a2a9d81833eeee203abfc37f3000c8.jpg')] rounded-lg
               bg-cover bg-top flex justify-end">
                 
-                <div className="w-[78%] h-full flex items-center">
+                <div className="w-[90%] md:w-[78%] h-full flex items-center">
                     <div className="w-44 mr-16">
-                      <h1 className="text-white text-4xl font-semibold mb-1">Devices</h1>
+                      <h1 className="text-white text-4xl font-semibold mb-2">Devices</h1>
                       <p className="text-lg  text-white">Find the best for you here!</p>
                     </div>
                    
                     <div className="w-full h-full overflow-hidden py-12">
                     
                     <Swiper
-                      slidesPerView={4.2}
+                      breakpoints={{
+                        340: {
+                          slidesPerView: 1.1
+                        },
+                        760: {
+                          slidesPerView: 4.2
+                        }
+                      }}
+                 
                     >
                     {
                         bestDeals.map((item) => (
