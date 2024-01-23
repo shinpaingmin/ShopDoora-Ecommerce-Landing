@@ -41,7 +41,7 @@ const SwiperNavButtons = () => {
         <>
             <div className='bg-black/30 backdrop-blur w-12 h-48 absolute
                     top-1/2 left-0 translate-y-[-50%] z-10
-                    grid place-items-center mx-4 rounded-md cursor-pointer'
+                    grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
                 ref={prevRef}
                 onClick={() => swiper.slidePrev()}
             >
@@ -50,7 +50,7 @@ const SwiperNavButtons = () => {
             </div>
             <div className='bg-black/30 backdrop-blur w-12 h-48 absolute
                     top-1/2 right-0 translate-y-[-50%] z-10
-                    grid place-items-center mx-4 rounded-md cursor-pointer'
+                    grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
                 ref={nextRef}
                 onClick={() => swiper.slideNext()}
             >

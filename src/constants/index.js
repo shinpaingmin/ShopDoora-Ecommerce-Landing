@@ -39,3 +39,45 @@ export const bestDeals = [
         label: "vape1"
     },
 ];  
+
+export const newReleased = [
+    {
+        imgSrc: "https://vapelust.co.uk/wp-content/uploads/2023/07/Lemon-_-Lime_13_11zon_141_11zon.webp",
+        label: "lemon vape",
+        desc: "Strawberry Yoghurt with Refreshing Flavor Nic 3 Percent",
+        price: "30,000 MMK"
+    },
+
+    {
+        imgSrc: "https://www.7monppo.com/cdn/shop/products/7m-800_1_cd75f4de-09b2-442e-88cc-074e9c7cf276.jpg?v=1678693302",
+        label: "strawberry vape",
+        desc: "Strawberry Yoghurt with Refreshing Flavor Nic 3 Percent",
+        price: "30,000 MMK"
+    },
+
+    {
+        imgSrc: "https://acevaper.ca/wp-content/uploads/2021/09/w-fruit-blurazz-9222021158.jpg",
+        label: "blueberry vape",
+        desc: "Strawberry Yoghurt with Refreshing Flavor Nic 3 Percent",
+        price: "30,000 MMK"
+    },
+
+    {
+        imgSrc: "https://www.7monppo.com/cdn/shop/products/651434307421233464.jpg?v=1678689832",
+        label: "kiwi vape",
+        desc: "Strawberry Yoghurt with Refreshing Flavor Nic 3 Percent",
+        price: "30,000 MMK"
+    },
+];
+
+export const feature1 = [
+    {
+        imgSrc: "https://i.pinimg.com/originals/86/a2/a9/86a2a9d81833eeee203abfc37f3000c8.jpg",
+        label: "feature1"
+    },
+
+    {
+        imgSrc: "https://cdn.shopify.com/s/files/1/0231/1674/2734/files/pen_style_kits.jpg?1805",
+        label: "feature2"
+    },
+];
