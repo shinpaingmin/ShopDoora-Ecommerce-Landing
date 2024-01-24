@@ -38,7 +38,7 @@ const NewReleasedSlideBtn = () => {
   return (
     <>
         <div className='bg-black/30 backdrop-blur w-8 h-8 md:w-12 md:h-32 absolute
-                top-1/2 left-0 translate-y-[-50%] z-10
+                top-1/2 left-0 translate-y-[-65%] z-10
                 hidden place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
             ref={prevRef}
             onClick={handlePrevButton}
@@ -47,7 +47,7 @@ const NewReleasedSlideBtn = () => {
                     size={20} />
         </div>
         <div className='bg-black/30 backdrop-blur w-8 h-8 md:w-12 md:h-32 absolute
-                top-1/2 right-0 translate-y-[-50%] z-10
+                top-1/2 right-0 translate-y-[-65%] z-10
                 grid place-items-center mx-4 rounded-md cursor-pointer hover:opacity-90'
             ref={nextRef}
             onClick={handleNextButton}

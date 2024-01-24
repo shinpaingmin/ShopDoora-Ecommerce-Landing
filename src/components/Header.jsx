@@ -15,19 +15,19 @@ const Header = () => {
     }, [open])
 
     return (
-        <header className="absolute top-0 left-0 z-10 w-full py-6">
+        <header className="absolute top-0 left-0 z-10 w-full py-1 md:py-6">
             <div className="max-w-[1280px] mx-auto  p-2
                 flex items-center justify-between">
                 <a href="#" className="text-white text-xl font-bold font-serif">PI人</a>
                 <div className="flex items-center relative">
                     <a className="mr-8 cursor-pointer">
                         <IoSearch color="#fff"
-                            size={22}/>
+                            size={24}/>
                     </a>
 
                     <a className="mr-[3.5rem] cursor-pointer">
                         <PiShoppingCart color="#fff"
-                            size={22}/>
+                            size={24}/>
                     </a>
 
                     <button type="button" 
@@ -42,7 +42,7 @@ const Header = () => {
                                 
                             ) : (
                                 <GiHamburgerMenu color="#fff"
-                                    size={22}
+                                    size={26}
                                     className="transition-all duration-200" />
                             )
                         }

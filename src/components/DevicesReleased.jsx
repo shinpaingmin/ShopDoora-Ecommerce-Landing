@@ -9,7 +9,7 @@ const DevicesReleased = () => {
   return (
     <div className="mb-8">
         <div className="w-full  min-h-96 md:h-96 bg-[url('https://i.pinimg.com/originals/86/a2/a9/86a2a9d81833eeee203abfc37f3000c8.jpg')] rounded-lg
-            bg-cover bg-gray-200 bg-top flex justify-end">
+            bg-cover bg-gray-200 bg-top flex justify-end max-md:py-3">
             
             <div className="w-full md:w-[78%] h-full flex items-center max-md:flex-col">
                 <div className="w-44 md:mr-16 mb-3">
