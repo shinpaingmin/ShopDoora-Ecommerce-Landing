@@ -49,7 +49,7 @@ const DevicesReleased = () => {
                                     relative ">
                                     <img src={item.imgSrc}
                                     alt={item.label}
-                                    className="w-full h-full object-cover object-start translate-y-[50px] bg-gray-200" 
+                                    className="w-full h-full object-cover object-start translate-y-[50px] bg-[#eaeaea]" 
                                     />
 
                                 

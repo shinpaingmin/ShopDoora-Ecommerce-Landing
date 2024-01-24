@@ -20,7 +20,7 @@ const BestDeals = () => {
                             relative">
                             <img src={item.imgSrc}
                             alt={item.label}
-                            className="w-full h-full object-cover object-start translate-y-[50px] bg-gray-200" 
+                            className="w-full h-full object-cover object-start translate-y-[50px] bg-[#eaeaea]" 
                             />
 
                             <div className="absolute top-0 left-1/2 translate-x-[-50%]
